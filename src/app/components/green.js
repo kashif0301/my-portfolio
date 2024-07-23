@@ -1,10 +1,10 @@
 "use client"
-import React, from "react";
+import React, {useState, useEffect} from "react";
 import Image from "next/image";
 import Styles from "../styles/green.module.css";
 
 const Green = () => {
- 
+
   
 
   return (

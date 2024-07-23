@@ -1,0 +1,17 @@
+/* styles/globals.css */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Add any additional global styles here */
+
+body{
+    height: 100vh;
+    background-color:black;
+    color: white;
+}
+.fontsize{
+    font-size: 40px;
+}
+
+a{
+    color: white !important;
+}

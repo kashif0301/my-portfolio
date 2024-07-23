@@ -1,0 +1,29 @@
+.fontsize{
+    font-size: 18px;
+
+}
+.kashif{
+    background-color: #D36B00;
+}
+.whitetext{
+    color: white !important;
+}
+
+
+.iconsize{
+    font-size: 30px !important;
+}
+.iconsize:hover{
+    color: #D36B00;
+}
+.navhover:hover{
+
+    color:  #D36B00 !important;
+}
+
+.stickyitem{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+

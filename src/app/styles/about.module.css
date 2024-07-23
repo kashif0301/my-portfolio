@@ -1,0 +1,10 @@
+.fontgreen{ 
+    color:  #D36B00;;
+
+}
+
+.cardhover:hover{
+    background-color: #D36B00;
+    color: aliceblue;
+
+}

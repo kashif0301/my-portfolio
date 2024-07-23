@@ -1,0 +1,15 @@
+.green{
+    background-color: #D36B00;
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .green{
+      height: 50vh; /* Adjust height for mobile screens */
+    }
+  }
+.green img{
+border: 2px solid white;
+}

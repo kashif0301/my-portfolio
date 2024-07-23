@@ -108,6 +108,7 @@ const About = () => {
                       src="/myprofile.jpeg"
                       width={75}
                       height={75}
+                      alt="clients"
                     />
                   </div>
                   <div className="review text-center mt-3">
@@ -129,6 +130,7 @@ const About = () => {
                       src="/myprofile.jpeg"
                       width={75}
                       height={75}
+                      alt="clients"
                     />
                   </div>
                   <div className="review text-center mt-3">
@@ -150,6 +152,7 @@ const About = () => {
                       src="/myprofile.jpeg"
                       width={75}
                       height={75}
+                      alt="clients"
                     />
                   </div>
                   <div className="review text-center mt-3">

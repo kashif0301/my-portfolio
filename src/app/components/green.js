@@ -1,22 +1,15 @@
 "use client"
-import React, {useState, useEffect} from "react";
+import React, from "react";
 import Image from "next/image";
 import Styles from "../styles/green.module.css";
 
 const Green = () => {
-  const [ currenttime ,setCurrenttime] = useState(new Date().toLocaleTimeString());
+ 
   
-  useEffect(()=>{
-    const timer = setInterval(() => {
-      setCurrenttime(new Date().toLocaleTimeString())
-      
-    }, 1000);
-    return ()=>clearInterval(timer);
-  },[]);
+
   return (
     <div className={`greensection position-sticky top-0 d-flex justify-content-center align-items-center ${Styles.green}`}>
         <div className="imageandinfo green d-flex flex-column justify-content-center align-items-center">
-          <p style={{fontSize:"3rem", fontWeight:"500"}}>{currenttime}</p>
             <Image
             className="rounded-circle"
             src="/myprofile.jpeg"

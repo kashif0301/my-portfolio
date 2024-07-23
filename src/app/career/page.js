@@ -90,7 +90,7 @@ const Career = () => {
             <div className="skillsbars  animate__animated animate__slideInRight">
               {managingskills.map((items, index) => {
                 return (
-                  <div className="singlebar mt-3">
+                  <div className="singlebar mt-3" key={index}>
                     <div
                       className="nameinfo d-flex justify-content-between"
                       style={{ height: "24px" }}
@@ -116,7 +116,7 @@ const Career = () => {
             <div className="skillsbars  animate__animated animate__slideInLeft">
               {codingskills.map((items, index) => {
                 return (
-                  <div className="singlebar mt-3" index={index}>
+                  <div className="singlebar mt-3" key={index}>
                     <div
                       className="nameinfo d-flex justify-content-between"
                       style={{ height: "24px" }}

@@ -62,7 +62,7 @@ const Career = () => {
         {
           experiences.map((items,index)=>{
             return (
-              <div className="row">
+              <div className="row" key={index}>
               <div className="col-sm-12 col-md-12 col-lg-3">
                 <div key={index} className={`tenure ${Styles.greenborder}`}>
                   <p className="text-right">{items.date}</p>

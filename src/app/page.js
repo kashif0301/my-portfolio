@@ -19,14 +19,26 @@ export default function Home() {
       </p>
       <h1 style={{ fontSize: "80px", fontWeight: "700" }}>Kashif Nawaz</h1>
       <p className="mt-3" style={{ width: "50%", textAlign: "justify" }}>
-        I design and develop services for customers of all sizes, specializing
-        in creating stylish, modern websites, web services and online stores.
+        i am a MERN STACK developer having experience as a Front End Developer
+        in Esol technologies lahore, Looking forward to explore some
+        oppurtunities as MERN STACK developer in the industry.
       </p>
-      <h4 className="fontgreen" style={{fontSize:"3rem"}}>
+      <h4 className="fontgreen" style={{ fontSize: "3rem" }}>
         {text}
         <Cursor />
       </h4>
-      <button style={{width:"150px", borderRadius:"10px", height:"70px", backgroundColor:"#D36B00", color:"white"}}> Donwload CV</button>
+      <button
+        style={{
+          width: "150px",
+          borderRadius: "10px",
+          height: "70px",
+          backgroundColor: "#D36B00",
+          color: "white",
+        }}
+      >
+        {" "}
+        Donwload CV
+      </button>
     </div>
   );
 }
